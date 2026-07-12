@@ -68,6 +68,7 @@
 #define ADC_PIN 2
 
 // APP
+#define APP_EMULATOR_ENABLE
 #define APP_LEGLAMIIBO_ENABLE
 // #define APP_PLAYER_ENABLE
 #if defined(INTERNAL_ENABLE)

@@ -22,7 +22,7 @@
 #define BUTTON_1       7
 #define BUTTON_2       6
 #define BUTTON_3       5
-#define BUTTON_4       4
+#define BUTTON_4       5
 #define BUTTON_STOP    7
 #define BUTTON_PULL    NRF_GPIO_PIN_PULLUP
 

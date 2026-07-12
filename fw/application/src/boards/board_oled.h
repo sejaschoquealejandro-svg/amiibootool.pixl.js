@@ -19,9 +19,9 @@
 #define BUTTONS_NUMBER 3
 
 #define BUTTON_START   5
-#define BUTTON_1       5
-#define BUTTON_2       7
-#define BUTTON_3       6
+#define BUTTON_1       6
+#define BUTTON_2       5
+#define BUTTON_3       7
 #define BUTTON_STOP    7
 #define BUTTON_PULL    NRF_GPIO_PIN_PULLUP
 

@@ -112,6 +112,10 @@ static void chameleon_view_on_input(mui_view_t *p_view, mui_input_event_t *event
             if (p_chameleon_view->event_cb) {
                 p_chameleon_view->event_cb(CHAMELEON_VIEW_EVENT_NEXT, p_chameleon_view);
             }
+        } else if (event->key == INPUT_KEY_BACK) {
+            if (p_chameleon_view->event_cb) {
+                p_chameleon_view->event_cb(CHAMELEON_VIEW_EVENT_BACK, p_chameleon_view);
+            }
         }
     }
     }
